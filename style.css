@@ -1,0 +1,42 @@
+html {
+  font-size: 62.5%;
+}
+.BehälterFürBilder {
+  height: 75%;
+  width: 75%;
+  margin: 15rem auto;
+  background-color: #fff;
+}
+
+/* CSS für Bilder Komposition */
+.Bilder-Komposition {
+  position: relative;
+}
+.Bilder-Komposition__Foto {
+  width: 60%;
+  box-shadow: 0 1.5rem 4rem rgba(0, 0, 0, 0.4);
+  position: absolute;
+  transition: all 0.2s;
+  outline-offset: 2rem;
+}
+.Bilder-Komposition__Foto--F1 {
+  left: 0;
+  top: -2rem;
+}
+.Bilder-Komposition__Foto--F2 {
+  right: 0;
+  top: 2rem;
+}
+.Bilder-Komposition__Foto--F3 {
+  left: 20%;
+  top: 10rem;
+}
+.Bilder-Komposition__Foto:hover {
+  outline: 1.5rem solid #55c57a;
+  transform: scale(1.05) translateY(-0.5rem);
+  box-shadow: 0 2.5rem 4rem rgba(0, 0, 0, 0.5);
+  z-index: 10;
+}
+.Bilder-Komposition:hover .Bilder-Komposition__Foto:not(:hover) {
+  transform: scale(0.95);
+}
