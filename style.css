@@ -9,7 +9,7 @@ h1 {
 .BehälterFürBilder {
   height: 75%;
   width: 75%;
-  margin: 8.5rem auto;
+  margin: 1rem auto;
   background-color: #fff;
 }
 
@@ -37,7 +37,7 @@ h1 {
   top: 10rem;
 }
 .Bilder-Komposition__Foto:hover {
-  outline: 1.5rem solid #aed19f;
+  outline: 0.5rem solid #aed19f;
   transform: scale(1.05) translateY(-0.5rem);
   box-shadow: 0 2.5rem 4rem rgba(0, 0, 0, 0.5);
   z-index: 10;
